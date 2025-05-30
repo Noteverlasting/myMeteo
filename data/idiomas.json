@@ -1,0 +1,54 @@
+{
+    "es": {
+        "lang": "es",
+        "previsionHoy": "Previsión para hoy",
+        "temp" : "Temperatura:",
+        "feels_like": "Sensación:",
+        "temp_min": "Temp. mín.:",
+        "temp_max": "Temp. máx.:",
+        "humidity" : "Humedad:",
+        "speed" : "Vel. Viento:",
+        "sunrise" : "Salida sol:",
+        "sunset" : "Puesta sol:",
+        "previsiones" : "Previsión próximos 4 dias"
+    },
+    "en": {
+        "lang": "en",
+        "previsionHoy": "Today's forecast",
+        "temp" : "Temperature:",
+        "feels_like": "Feels like:",
+        "temp_min": "Min. temp.:",
+        "temp_max": "Max. temp.:",
+        "humidity" : "Humidity:",
+        "speed" : "Wind speed:",
+        "sunrise" : "Sunrise:",
+        "sunset" : "Sunset:",
+        "previsiones" : "Forecast for the next 4 days"
+    },
+    "fr": {
+        "lang": "fr",
+        "previsionHoy": "Prévision pour aujourd'hui",
+        "temp" : "Température:",
+        "feels_like": "Sensations:",
+        "temp_min": "Temp. min.:",
+        "temp_max": "Temp. max.:",
+        "humidity" : "Humidité:",
+        "speed" : "Vitesse du vent:",
+        "sunrise" : "Lever:",
+        "sunset" : "Coucher:",
+        "previsiones" : "Prévision pour les 4 prochains jours"
+    },
+    "ca": {
+        "lang": "ca",
+        "previsionHoy": "Previsió per avui",
+        "temp" : "Temperatura",
+        "feels_like": "Sensació:",
+        "temp_min": "Temp. min.:",
+        "temp_max": "Temp. máx.:",
+        "humidity" : "Humitat:",
+        "speed" : "Velocitat del vent:",
+        "sunrise" : "Sortida del sol:",
+        "sunset" : "Ponent del sol:",
+        "previsiones" : "Previsió per als 4 pròxims dies"
+    }
+}
