@@ -49,7 +49,9 @@ function actualizarContenido() {
     elementos.forEach(id => {
         const elemento = document.getElementById(id);
         if (elemento && elemento.dataset.value) {
-            elemento.textContent = elemento.textContent + elemento.dataset.value;
+            // Mantener el texto original y añadir el valor
+            const textoOriginal = elemento.textContent.split(':')[0]; // Obtiene el texto antes de ":"
+            elemento.textContent = `${textoOriginal}:${elemento.dataset.value}`;
         }
     });
 }

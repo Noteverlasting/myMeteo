@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+    margin: 0 auto; /* Centra horizontalmente */
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+section {
+    width: 100%;
+    max-width: 800px; /* Ancho máximo para las secciones */
+    margin: 0 auto;
+}
+
+#iconNow {
+    width: clamp(12rem, 10vw + 10rem, 20rem); 
+}
+
+#iconDia1, #iconDia2, #iconDia3, #iconDia4 {
+
+    img {
+       width: clamp(6rem, 6vw, 9rem); 
+    }
+    
+}
+
+#muestreo {
+    display: flex;
+    gap: 3rem;
+}
+
+#muestreoprevis {
+    display: flex;
+    gap: 4rem;
+}
